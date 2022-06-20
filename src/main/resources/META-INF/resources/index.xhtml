@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>PrimeFaces Test</title>
+</h:head>
+<h:body>
+
+    <h:form>
+        <h3>Hello please enter your name</h3>
+        <label>Name: </label>
+        <h:inputText value="#{user.name}" />
+        <h:commandButton value="Submit" action="welcome" />
+    </h:form>
+
+</h:body>
+</html>
